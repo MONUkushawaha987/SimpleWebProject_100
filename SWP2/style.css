@@ -13,3 +13,17 @@
     align-items: center;
     min-height: 100vh;
   }
+  .wrapper .loader {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 20px;
+  }
+  
+  .loader .loading {
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin: 0 10px;
+    animation: load 0.8s ease infinite;
+  }
