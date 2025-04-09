@@ -7,3 +7,10 @@ body {
     justify-content: center;
     align-items: center;
   }
+  .container {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    background: #222;
+  }
+  
