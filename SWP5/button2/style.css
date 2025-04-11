@@ -48,4 +48,7 @@ body {
     transition: all 0.5s;
     transition-delay: 0.25s;
   }
-  
+  a:hover:before,
+  a:hover:after {
+    transform: rotateX(0);
+  }
