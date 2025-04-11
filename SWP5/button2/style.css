@@ -5,3 +5,13 @@ body {
     align-items: center;
     font-family: sans-serif;
   }
+  
+  a {
+    padding: 2rem 3rem;
+    text-transform: uppercase;
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 1.5rem;
+    position: relative;
+    text-decoration: none;
+  }
