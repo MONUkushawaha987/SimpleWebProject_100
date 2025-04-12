@@ -51,4 +51,9 @@ body {
     left: 0;
     transform: perspective(1000px) rotateX(75deg);
   }
-  
+   
+  a:hover:after {
+    top: 6px;
+    left: 0;
+    transform: perspective(1000px) rotateX(-75deg);
+  }
