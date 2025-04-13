@@ -11,3 +11,14 @@
     font-family: sans-serif;
     background: crimson;
   }
+   
+  .btn {
+    border: none;
+    padding: 1rem 4rem;
+    background: rgba(17, 17, 137, 0.824);
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+  }
