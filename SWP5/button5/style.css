@@ -11,3 +11,14 @@
     font-family: sans-serif;
     background: #000;
   }
+  a {
+    position: absolute;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1rem 4rem;
+    background: #fff;
+    color: #000;
+    border-radius: 100px;
+    font-size: 1.5rem;
+    transition: all 0.2s;
+  }
