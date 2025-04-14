@@ -34,3 +34,8 @@
     transition: all 1s;
     z-index: -1;
   }
+    
+  a:hover:before {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+  }
