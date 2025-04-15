@@ -40,3 +40,7 @@
     transition: all 1s;
     transform-origin: left;
   }
+  ul li a:hover:before,
+  ul li a:hover:after {
+    transform: scaleX(1);
+  }
