@@ -61,4 +61,7 @@
   .list-items:hover:after {
     transform: scale(1);
   }
-  
+   
+ .list-items:hover:after {
+    transform: scale(1);
+  }
