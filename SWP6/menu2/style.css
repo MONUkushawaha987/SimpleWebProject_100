@@ -58,3 +58,7 @@
     transform: scale(0);
     z-index: -1;
   }
+  .list-items:hover:after {
+    transform: scale(1);
+  }
+  
