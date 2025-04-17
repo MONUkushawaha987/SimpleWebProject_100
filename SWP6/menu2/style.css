@@ -42,3 +42,7 @@
     border-top: 2px solid crimson;
     border-bottom: 2px solid crimson;
   }
+  .list-items:hover:before {
+    transform: scaleY(1.2);
+    opacity: 1;
+  }
