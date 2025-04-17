@@ -18,3 +18,14 @@
   li {
     list-style: none;
   }
+  .list-items {
+    position: relative;
+    display: block;
+    padding: 15px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+    transition: 1s;
+  }
