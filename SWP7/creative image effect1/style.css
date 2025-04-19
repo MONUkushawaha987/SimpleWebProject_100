@@ -4,4 +4,10 @@ body {
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
+  } 
+  .container {
+    width: 30rem;
+    height: 30rem;
+    position: relative;
+    overflow: hidden;
   }
