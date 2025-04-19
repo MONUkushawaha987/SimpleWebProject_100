@@ -16,3 +16,19 @@ body {
     transition: all 1s;
   }
   
+  .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* center the text */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transition: all 1s;
+    background: rgb(23, 23, 23);
+    transform: translateX(-100%);
+  }
