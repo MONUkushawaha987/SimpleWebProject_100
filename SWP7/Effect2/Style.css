@@ -11,3 +11,7 @@ body {
     position: relative;
     overflow: hidden;
   }
+  .container img {
+    width: 100%;
+    transition: all 0.5s;
+  }
