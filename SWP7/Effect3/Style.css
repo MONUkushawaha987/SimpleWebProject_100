@@ -33,4 +33,13 @@ body {
     text-transform: uppercase;
     margin: 25px;
     color: #fff;
+  } 
+  p {
+    width: 80%;
+    margin: 10px auto;
+    font-size: 18px;
+    transition: 0.5s;
+    opacity: 0;
+    line-height: 25px;
+    color: #fff;
   }
