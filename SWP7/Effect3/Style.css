@@ -28,3 +28,9 @@ body {
     justify-content: center;
     align-items: center;
   }
+  h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 25px;
+    color: #fff;
+  }
