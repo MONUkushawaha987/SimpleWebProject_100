@@ -43,3 +43,16 @@ body {
     line-height: 25px;
     color: #fff;
   }
+  a {
+    text-decoration: none;
+    background-color: black;
+    color: #fff;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 10px;
+    transition: 0.5s;
+    opacity: 0;
+    line-height: 25px;
+    color: #fff;
+  }
+  
