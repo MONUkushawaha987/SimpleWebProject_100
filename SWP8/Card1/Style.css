@@ -6,3 +6,10 @@ body {
     background: rgb(10, 10, 10);
     height: 100vh;
   }
+  .card-container {
+    position: relative;
+    width: 320px;
+    padding: 40px;
+    background: white;
+    overflow: hidden;
+  }
