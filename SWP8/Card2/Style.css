@@ -52,3 +52,15 @@ body {
     height: 100%;
     object-fit: cover;
   }
+  .card:hover .imgBox {
+    bottom: 80px;
+  }
+  
+  .details {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    height: 60px;
+    text-align: center;
+  }
