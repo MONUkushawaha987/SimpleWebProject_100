@@ -12,3 +12,10 @@
     background: linear-gradient(#8bc6ec, #9599e2);
     font-family: sans-serif;
   }
+  #container {
+    position: relative;
+    padding: 7px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+  }
