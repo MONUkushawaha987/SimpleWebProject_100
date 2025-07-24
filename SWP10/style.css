@@ -36,3 +36,6 @@
     font-size: 22px;
     color: dodgerblue;
   }
+   #accordion label + input[type="radio"] {
+    display: none;
+  }
