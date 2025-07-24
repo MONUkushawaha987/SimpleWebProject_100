@@ -20,3 +20,13 @@
     padding: 10px;
   }
   
+  #accordion li label {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: dodgerblue;
+    cursor: pointer;
+  }
