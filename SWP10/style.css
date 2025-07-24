@@ -12,3 +12,11 @@
     margin: 100px auto;
     width: 600px;
   }
+   #accordion li {
+    list-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+    background: #fff;
+    padding: 10px;
+  }
+  
