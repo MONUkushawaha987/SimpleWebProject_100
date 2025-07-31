@@ -47,3 +47,20 @@
     border-radius: 0.25rem;
     cursor: pointer;
   }
+  
+  button[type="submit"]:hover {
+    background-color: #0063ad;
+  }
+  
+  #search-results {
+    margin-bottom: 2rem;
+  }
+  
+  .result-item {
+    margin-bottom: 1rem;
+  }
+  
+  .result-title {
+    font-size: 1.5rem;
+    margin-top: 0;
+  }
