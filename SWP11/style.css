@@ -64,3 +64,17 @@
     font-size: 1.5rem;
     margin-top: 0;
   }
+  .result-link {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #0074d9;
+  }
+  
+  .result-link:hover {
+    text-decoration: underline;
+  }
+  
+  .result-snippet {
+    margin-top: 0;
+  }
