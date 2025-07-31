@@ -13,3 +13,23 @@
     margin: 0 auto;
     padding: 2rem;
   }
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  #search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  #search-input {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 0.25rem;
+    flex-grow: 1;
+  }
