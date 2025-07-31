@@ -111,3 +111,15 @@
     color: #fff;
     border-color: #fff;
   }
+   .dark-theme #search-input:focus {
+    border-color: #0074d9;
+  }
+  
+  .dark-theme button[type="submit"] {
+    background-color: #0074d9;
+  }
+  
+  .dark-theme .result-link,
+  .dark-theme .result-link:hover {
+    color: #90caf9;
+  }
