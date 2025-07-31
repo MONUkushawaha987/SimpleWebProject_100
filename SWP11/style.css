@@ -78,3 +78,18 @@
   .result-snippet {
     margin-top: 0;
   }
+  .spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    height: 10rem;
+  }
+  
+  /* Dark theme */
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
