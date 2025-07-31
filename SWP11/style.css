@@ -92,4 +92,22 @@
     justify-content: space-between;
     align-items: center;
   }
+   #theme-toggler {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    background: #e2e2e2;
+    padding: 10px 20px;
+    border-radius: 100px;
+  }
   
+  .dark-theme {
+    background-color: #282c34;
+    color: #fff;
+  }
+  
+  .dark-theme #search-input {
+    background-color: #454545;
+    color: #fff;
+    border-color: #fff;
+  }
