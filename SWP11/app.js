@@ -66,3 +66,17 @@ searchForm.addEventListener("submit", async (e) => {
     searchResults.innerHTML = `<p>An error occured while searching. Please try again later. </p>`;
   }
 });
+
+// Event listener for the theme toggler
+themeToggler.addEventListener("click", () => {
+  body.classList.toggle("dark-theme");
+  if (body.classList.contains("dark-theme")) {
+    themeToggler.textContent = "Dark";
+    themeToggler.style.background = "#fff";
+    themeToggler.style.color = "#333";
+  } else {
+    themeToggler.textContent = "Light";
+    themeToggler.style.border = "2px solid #ccc";
+    themeToggler.style.color = "#333";
+  }
+});
