@@ -40,3 +40,29 @@ function displayResults(results) {
     searchResults.appendChild(resultItme);
   });
 }
+
+searchForm.addEventListener("submit", async (e) => {
+  e.preventDefault();
+
+  const query = searchInput.value.trim();
+
+  if (!query) {
+    searchResults.innerHTML = "<p>Please enter a valid search term. </p>";
+    return;
+  }
+
+  searchResults.innerHTML = "<div class='spinner'>Loading ... </div>";
+
+  try {
+    const results = await searchWikipeida(query);
+
+    if (results.query.searchinfo.totalhits === 0) {
+      searchResults.innerHTML = "<p>No results found. </p>";
+    } else {
+      displayResults(results.query.search);
+    }
+  } catch (error) {
+    console.error(error);
+    searchResults.innerHTML = `<p>An error occured while searching. Please try again later. </p>`;
+  }
+});
