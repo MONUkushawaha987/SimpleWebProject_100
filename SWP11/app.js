@@ -19,3 +19,24 @@ async function searchWikipeida(query) {
   const json = await reponse.json();
   return json;
 }
+
+function displayResults(results) {
+  // Remove the loading spinner
+  searchResults.innerHTML = "";
+
+  results.forEach((result) => {
+    const url = `https://en.wikipedia.org/?curid=${results.pageid}`;
+    const titleLink = `<a href="${url}" target="_blank" rel="noopener">${result.title} </a>`;
+    const urlLink = `<a href="${url} class="result-link" target="_blank" rel="noopener">${url}</a>`;
+
+    const resultItme = document.createElement("div");
+    resultItme.className = "result-item";
+    resultItme.innerHTML = `
+        <h3 class="result-title">${titleLink}</h3>
+        ${urlLink}
+        <p class="result-snippet">${result.snippet}</p>
+        `;
+
+    searchResults.appendChild(resultItme);
+  });
+}
