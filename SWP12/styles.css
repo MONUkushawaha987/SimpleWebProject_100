@@ -19,3 +19,7 @@ body {
     overflow: hidden;
     overflow-y: scroll;
   }
+  
+  .scroll-object {
+    padding: 20px;
+  }
