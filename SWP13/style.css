@@ -14,3 +14,12 @@ body {
   align-items: center;
   background: #000;
 }
+.heading {
+  font-size: 10rem;
+  font-weight: 900;
+  background: url(https://images.pexels.com/photos/36851/fire-easter-easter-fire-flame.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
