@@ -9,3 +9,13 @@
     background: #000;
     color: #fff;
   }
+  
+  .content {
+    padding: 4rem;
+  }
+  
+  section {
+    border: 2px solid white;
+    margin: 20px 0;
+    padding: 20px;
+  }
