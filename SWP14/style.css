@@ -19,3 +19,18 @@
     margin: 20px 0;
     padding: 20px;
   }
+    
+  section h1 {
+    margin: 10px 0;
+  }
+  
+  .scroll-indicator {
+    height: 10px;
+    width: calc(100% - 3em);
+    position: fixed;
+    top: 10px;
+    left: 3em;
+    border-radius: 3px;
+    
+  }
+  
