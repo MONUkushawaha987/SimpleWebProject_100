@@ -35,3 +35,14 @@
     width: 100px;
     position: absolute;
   }
+  
+  .gray-heart:before {
+    top: -50px;
+    left: 0;
+  }
+  
+  .gray-heart:after {
+    left: 50px;
+    top: 0;
+  }
+  
