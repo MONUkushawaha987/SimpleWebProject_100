@@ -14,3 +14,15 @@
     height: 100vh;
     background: rgb(7, 7, 20);
   }
+   /* gray-heart */
+  .gray-heart {
+    background: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 0;
+    transform: rotate(-45deg);
+  }
