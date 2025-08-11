@@ -45,4 +45,14 @@
     left: 50px;
     top: 0;
   }
-  
+   .red-heart {
+    background: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    transform: rotate(-45deg);
+    position: absolute;
+    visibility: hidden;
+  }
