@@ -26,3 +26,12 @@
     top: 0;
     transform: rotate(-45deg);
   }
+  .gray-heart:before,
+  .gray-heart:after {
+    content: "";
+    background: #ccc;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+  }
