@@ -75,3 +75,11 @@
     left: 50px;
     top: 0;
   }
+   .red-heart.animation {
+    animation: pop 0.9s linear;
+    visibility: visible;
+  }
+  
+  .red-heart.fill-color {
+    background: var(--main-color);
+  }
