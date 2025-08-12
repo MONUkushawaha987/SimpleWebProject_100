@@ -66,4 +66,12 @@
     height: 100px;
     position: absolute;
   }
+   .red-heart:before {
+    top: -50px;
+    left: 0;
+  }
   
+  .red-heart:after {
+    left: 50px;
+    top: 0;
+  }
