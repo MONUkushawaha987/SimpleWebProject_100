@@ -24,3 +24,6 @@ body {
     color: #000;
     cursor: pointer;
   }
+  button:active {
+    padding: 5px;
+  }
