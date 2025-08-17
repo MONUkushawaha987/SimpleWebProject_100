@@ -8,3 +8,8 @@ function randomColor() {
   }
   return color;
 }
+
+btn.addEventListener("click", () => {
+  document.body.style.backgroundColor = randomColor();
+  hex.innerHTML = randomColor();
+});
