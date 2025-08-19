@@ -21,3 +21,16 @@ function type() {
     setTimeout(erase, newLetterDelay);
   }
 }
+function erase() {
+  if (charIndex > 0) {
+    typedTextSpan.textContent = words[index].substring(0, charIndex - 1);
+    charIndex--;
+    setTimeout(erase, erasingDelay);
+  } else {
+    index++;
+    if (index >= words.length) {
+      index = 0;
+    }
+    setTimeout(type, typingDelay + 1100);
+  }
+}
