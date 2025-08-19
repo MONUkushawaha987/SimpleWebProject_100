@@ -12,3 +12,12 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(type, newLetterDelay);
   }
 });
+function type() {
+  if (charIndex < words[index].length) {
+    typedTextSpan.textContent += words[index].charAt(charIndex);
+    charIndex++;
+    setTimeout(type, typingDelay);
+  } else {
+    setTimeout(erase, newLetterDelay);
+  }
+}
