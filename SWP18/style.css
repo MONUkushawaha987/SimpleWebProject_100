@@ -17,3 +17,11 @@ h1 {
   font-size: 4rem;
   font-family: "Playfair Display SC", serif;
 }
+p {
+  color: #fff;
+  max-width: 700px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  line-height: 22px;
+  margin-bottom: 40px;
+}
