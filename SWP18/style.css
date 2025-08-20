@@ -8,3 +8,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+.container {
+  text-align: center;
+  margin: 0 auto;
+}
