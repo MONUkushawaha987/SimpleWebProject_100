@@ -25,3 +25,15 @@ p {
   line-height: 22px;
   margin-bottom: 40px;
 }
+button {
+  padding: 0;
+  margin: 0;
+  border: transparent;
+  background: transparent;
+  color: #fff;
+  border: 2px solid white;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
