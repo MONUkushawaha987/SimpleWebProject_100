@@ -12,3 +12,8 @@ body {
   text-align: center;
   margin: 0 auto;
 }
+h1 {
+  color: #fff;
+  font-size: 4rem;
+  font-family: "Playfair Display SC", serif;
+}
