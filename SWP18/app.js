@@ -5,3 +5,8 @@ document.addEventListener("mousemove", function (event) {
   // console.log(event);
   moveCursor(event.pageX, event.pageY);
 });
+
+function moveCursor(x, y) {
+  cursor.style.left = x + "px";
+  cursor.style.top = y + "px";
+}
