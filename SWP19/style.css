@@ -3,3 +3,11 @@
     margin: 0;
     box-sizing: border-box;
   }
+    .image-container {
+    background: url(https://github.com/HuXn-WebDev/HTML-CSS-JavaScript-100-Projects/blob/main/18.%20Video%20Trailer%20Popup/thumb-1920-597965.jpg?raw=true);
+    height: 100vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
