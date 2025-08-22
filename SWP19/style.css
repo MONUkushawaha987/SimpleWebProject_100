@@ -58,3 +58,15 @@
     max-width: 900px;
     outline: none;
   }
+    .close-icon {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: #f26415;
+    font-size: 40px;
+    cursor: pointer;
+    font-family: sans-serif;
+    padding: 10px;
+    border-radius: 100%;
+  }
+  
