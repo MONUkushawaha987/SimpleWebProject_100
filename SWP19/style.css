@@ -75,3 +75,9 @@
       max-width: 90%;
     }
   }
+    
+  /* JavaScript */
+  .active.trailer-container {
+    visibility: hidden;
+    opacity: 0;
+  }
