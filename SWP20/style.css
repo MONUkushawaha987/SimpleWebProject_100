@@ -5,4 +5,10 @@
     --white-ball: white;
     --black-ball: black;
   }
-  
+    body {
+    background: var(--primary-color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
