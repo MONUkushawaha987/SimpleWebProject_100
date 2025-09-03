@@ -27,4 +27,15 @@
     cursor: pointer;
     transition: 0.5s;
   }
+    label::after {
+    content: "";
+    width: 40px;
+    height: 40px;
+    border-radius: 70px;
+    background-color: var(--white-ball);
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    transition: 0.5s;
+  }
   
