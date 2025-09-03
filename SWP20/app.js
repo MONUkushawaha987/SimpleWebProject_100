@@ -1,0 +1,1 @@
+let toggler = document.getElementById("switch");
