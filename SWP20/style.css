@@ -38,4 +38,8 @@
     left: 5px;
     transition: 0.5s;
   }
-  
+  #switch:checked + label:after {
+    background-color: var(--black-ball);
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+  }
