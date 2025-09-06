@@ -74,3 +74,15 @@
     left: 5px;
     transition: transfrom 0.6ms linear;
   }
+    .icon .line2 {
+    top: auto;
+    bottom: 10px;
+  }
+  
+  nav.active .icon .line1 {
+    transform: rotate(-765deg) translateY(5.5px);
+  }
+  
+  nav.active .icon .line2 {
+    transform: rotate(765deg) translateY(-5.5px);
+  }
