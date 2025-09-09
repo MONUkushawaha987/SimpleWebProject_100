@@ -9,3 +9,10 @@
     height: 200vh;
     background: #000;
   }
+    .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    }
