@@ -16,3 +16,10 @@
     align-items: center;
     color: #fff;
     }
+    .sub-headings {
+    max-width: 700px;
+    text-align: center;
+    margin: 20px;
+    font-family: sans-serif;
+    line-height: 30px;
+  }
