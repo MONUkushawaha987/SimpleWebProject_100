@@ -80,3 +80,7 @@
     opacity: 1;
     transition: 1s all ease-in;
   }
+   .fade-out {
+    opacity: 0;
+    transition: 1s all ease-out;
+  }
