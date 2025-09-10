@@ -30,3 +30,14 @@
     font-size: 4rem;
     margin-bottom: 6rem;
   }
+  .arrow {
+    width: 45px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 30px;
+    margin: auto;
+    transition: ease-in;
+    animation: bounce 1.5s infinite;
+  }
