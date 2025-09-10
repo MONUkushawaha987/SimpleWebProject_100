@@ -53,3 +53,14 @@
     border-bottom: 2px solid #fafafa;
     transform: rotate(-45deg);
   }
+    @keyframes bounce {
+    0% {
+      transform: translate(0);
+    }
+    20% {
+      transform: translateY(15px);
+    }
+    40% {
+      transform: translate(0);
+    }
+  }
