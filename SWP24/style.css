@@ -27,3 +27,12 @@ body {
     padding: 10px;
     outline: none;
   }
+  #btn {
+    border: none;
+    background: transparent;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid white;
+    margin-top: 10px;
+    cursor: pointer;
+  }
