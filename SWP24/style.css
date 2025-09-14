@@ -15,3 +15,10 @@ body {
     display: flex;
     flex-direction: column;
   }
+  .inputs input {
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 10rem;
+    outline: none;
+    margin-bottom: 10px;
+  }
