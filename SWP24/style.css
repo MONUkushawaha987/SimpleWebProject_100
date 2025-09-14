@@ -10,4 +10,8 @@ body {
   .main {
     padding: 5px 0;
     text-align: center;
+  }  
+  input {
+    display: flex;
+    flex-direction: column;
   }
