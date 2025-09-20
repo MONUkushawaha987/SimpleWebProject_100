@@ -43,4 +43,10 @@
     text-align: center;
     position: relative;
     transition: 1s all ease;
+  } 
+  button {
+    background-color: rgb(6, 2, 15);
+    border: none;
+    color: #fff;
+    font-weight: bold;
   }
