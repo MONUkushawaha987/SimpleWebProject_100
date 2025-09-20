@@ -34,3 +34,13 @@
     margin: 10px;
     outline: none;
   }
+  
+  .output-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    transition: 1s all ease;
+  }
