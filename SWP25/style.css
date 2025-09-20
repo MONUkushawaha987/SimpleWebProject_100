@@ -17,3 +17,9 @@
     align-items: center;
     border-right: 2px solid white;
   }
+   
+  .btns-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
