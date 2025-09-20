@@ -29,3 +29,8 @@
     margin: 10px;
     cursor: pointer;
   }
+  
+  textarea {
+    margin: 10px;
+    outline: none;
+  }
