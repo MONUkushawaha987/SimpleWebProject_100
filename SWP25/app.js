@@ -8,7 +8,12 @@ copyBtn.addEventListener("click", () => {
   let temp = copyText.value;
   copyToClipBoard(temp);
 });
+
 moveBtn.addEventListener("click", () => {
   let temp = copyText.value;
   finalText.value = temp;
 });
+
+
+copyText.addEventListener("click", () => this.select());
+finalText.addEventListener("click", () => this.select());
