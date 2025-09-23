@@ -17,3 +17,19 @@ moveBtn.addEventListener("click", () => {
 
 copyText.addEventListener("click", () => this.select());
 finalText.addEventListener("click", () => this.select());
+
+function copyToClipBoard(str) {
+  const outputContainer = document.querySelector(".output-container");
+  const textarea = document.createElement("textarea");
+  textarea.value = str;
+  outputContainer.appendChild(textarea);
+  textarea.select();
+  document.execCommand("copy");
+  outputContainer.removeChild(textarea);
+  output.innerHTML = `<h3>Content Copied </h3>`;
+  output.classList.add("added");
+  setTimeout(() => {
+    output.classList.toggle("added");
+    output.textContent = "";
+  }, 2000);
+}
