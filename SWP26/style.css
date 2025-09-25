@@ -7,3 +7,14 @@
     --primary-color: rgb(210, 55, 55);
     --secondary-color: #e0e0e0;
   }
+   body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background: linear-gradient(#ff3cac, #784ba0, #2b86c5);
+  }
