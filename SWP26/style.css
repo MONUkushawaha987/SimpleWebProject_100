@@ -65,3 +65,6 @@
     border: 3px solid var(--secondary-color);
     transition: 0.4s ease;
   }
+  .circle.active {
+    border-color: var(--primary-color);
+  }
