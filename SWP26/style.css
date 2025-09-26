@@ -29,3 +29,15 @@
     max-width: 100%;
     width: 350px;
   }
+    
+  .progress-container::before {
+    content: "";
+    background-color: var(--secondary-color);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 100%;
+    z-index: -1;
+  }
