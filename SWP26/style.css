@@ -84,3 +84,7 @@
     transform: scale(0.98);
   }
   
+  .btn:disabled {
+    background-color: var(--secondary-color);
+    cursor: not-allowed;
+  }
