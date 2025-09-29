@@ -13,6 +13,7 @@ nextBtn.addEventListener("click", () => {
 
   updateUI();
 });
+
 prevBtn.addEventListener("click", () => {
   activeIndex--;
   if (activeIndex < 1) {
@@ -21,3 +22,11 @@ prevBtn.addEventListener("click", () => {
 
   updateUI();
 });
+function updateUI() {
+  circles.forEach((circle, index) => {
+    if (index < activeIndex) {
+      circle.classList.add("active");
+    } else {
+      circle.classList.remove("active");
+    }
+  });
