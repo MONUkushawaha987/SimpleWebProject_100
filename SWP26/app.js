@@ -13,3 +13,11 @@ nextBtn.addEventListener("click", () => {
 
   updateUI();
 });
+prevBtn.addEventListener("click", () => {
+  activeIndex--;
+  if (activeIndex < 1) {
+    activeIndex = 1;
+  }
+
+  updateUI();
+});
