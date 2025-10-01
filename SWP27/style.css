@@ -17,3 +17,10 @@ body {
     background-repeat: no-repeat;
     background-position: center;
   }
+    .content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
