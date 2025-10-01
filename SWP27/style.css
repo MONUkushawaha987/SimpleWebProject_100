@@ -71,3 +71,7 @@ header {
 .modal-form div {
   margin: 20px 0;
 }
+ .modal-form label {
+    display: block;
+    margin-bottom: 6px;
+  }
