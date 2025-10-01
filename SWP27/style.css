@@ -35,3 +35,12 @@ body {
     color: #fff;
     line-height: 24px;
   }
+  .cta-btn {
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    background-color: crimson;
+    color: #fff;
+    cursor: pointer;
+  }
