@@ -1,0 +1,7 @@
+:root {
+    --modal-duration: 1s;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
