@@ -79,3 +79,12 @@ header {
     padding: 8px;
     width: 100%;
   }
+   .close-btn {
+    background: transparent;
+    border: none;
+    font-size: 25px;
+    position: absolute;
+    top: 5px;
+    right: 12px;
+    cursor: pointer;
+  }
