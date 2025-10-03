@@ -88,3 +88,11 @@ header {
     right: 12px;
     cursor: pointer;
   }
+  .modal-container .submit-btn {
+    padding: 10px 30px;
+    font-weight: bold;
+    background: crimson;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
