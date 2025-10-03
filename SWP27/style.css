@@ -96,3 +96,6 @@ header {
     color: #fff;
     cursor: pointer;
   }
+   .modal-container.show-modal {
+    display: block;
+  }
