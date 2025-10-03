@@ -75,3 +75,7 @@ header {
     display: block;
     margin-bottom: 6px;
   }
+    .modal-form .form-input {
+    padding: 8px;
+    width: 100%;
+  }
