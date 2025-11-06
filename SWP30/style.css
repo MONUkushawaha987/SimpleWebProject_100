@@ -11,3 +11,6 @@
     justify-content: center;
     align-items: center;
   }
+  .selector {
+    width: 350px;
+  }
