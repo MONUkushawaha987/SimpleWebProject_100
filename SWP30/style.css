@@ -26,3 +26,7 @@
     align-items: center;
     cursor: pointer;
   }
+  #selectField img {
+    width: 12px;
+    transition: transform 0.5s;
+  }
