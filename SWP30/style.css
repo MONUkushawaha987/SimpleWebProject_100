@@ -44,3 +44,9 @@
     list-style: none;
     box-sizing: border-box;
   }
+   .options img {
+    width: 25px;
+    position: absolute;
+    top: 12px;
+    left: 25px;
+  }
