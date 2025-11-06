@@ -37,3 +37,10 @@
     border-radius: 6px;
     overflow: hidden;
   }
+  .options {
+    width: 100%;
+    position: relative;
+    padding: 15px 0 15px 70px;
+    list-style: none;
+    box-sizing: border-box;
+  }
