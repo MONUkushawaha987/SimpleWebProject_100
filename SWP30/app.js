@@ -4,3 +4,8 @@ let list = document.getElementById("list");
 let arrowIcon = document.getElementById("arrowIcon");
 let options = document.getElementsByClassName("options");
 
+
+selectField.addEventListener("click", () => {
+  list.classList.toggle("hide");
+  arrowIcon.classList.toggle("rotate");
+});
