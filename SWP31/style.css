@@ -50,4 +50,19 @@
     outline: 0;
     border-bottom-color: crimson;
   }
+  .btn {
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    background: crimson;
+    padding: 15px;
+    font-family: inherit;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+  }
   
+  .btn:focus {
+    outline: 0;
+  }
