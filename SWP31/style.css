@@ -13,3 +13,13 @@
     margin: 0;
     font-family: sans-serif;
   }
+   .container {
+    background: white;
+    padding: 5rem;
+    border-radius: 5px;
+  }
+  
+  .container h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
