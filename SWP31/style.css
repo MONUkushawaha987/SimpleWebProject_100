@@ -66,3 +66,13 @@
   .btn:focus {
     outline: 0;
   }
+   .btn:active {
+    transform: scale(0.98);
+  }
+  
+  .form-control label {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    pointer-events: none;
+  }
