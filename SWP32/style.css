@@ -36,3 +36,11 @@ body {
     width: 120px;
     padding: 5px;
   }
+  
+  .btn {
+    position: absolute;
+    top: 20px;
+    left: calc(100vw - 5vw);
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
