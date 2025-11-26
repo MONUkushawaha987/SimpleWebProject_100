@@ -26,3 +26,13 @@ body {
     position: relative;
     z-index: 5;
   }
+    .menu a {
+    text-decoration: none;
+    color: rgb(46, 45, 45);
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    width: 120px;
+    padding: 5px;
+  }
