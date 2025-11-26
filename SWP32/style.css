@@ -21,3 +21,8 @@ body {
     clip-path: circle(20px at calc(100vw - 5vw) 31px);
     transition: clip-path 0.5s;
   }
+  
+  .menu li {
+    position: relative;
+    z-index: 5;
+  }
