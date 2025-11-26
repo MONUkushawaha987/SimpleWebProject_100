@@ -77,3 +77,9 @@ body {
     background-size: cover;
     background-position: center;
   }
+    
+  .img-two {
+    background-image: url(https://github.com/HuXn-WebDev/HTML-CSS-JavaScript-100-Projects/blob/main/31.%20Full%20Screen%20Navigation/images/atharva-tulsi-6ftd4RgUdnk-unsplash.jpg?raw=true);
+    background-size: cover;
+    background-position: center;
+  }
