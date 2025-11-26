@@ -67,3 +67,8 @@ body {
     justify-content: center;
     align-items: center;
   }
+  .img {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+  }
