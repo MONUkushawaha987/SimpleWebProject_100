@@ -72,3 +72,8 @@ body {
     height: 250px;
     margin: 20px;
   }
+  .img-one {
+    background-image: url(https://github.com/HuXn-WebDev/HTML-CSS-JavaScript-100-Projects/blob/main/31.%20Full%20Screen%20Navigation/images/6536956.jpg?raw=true);
+    background-size: cover;
+    background-position: center;
+  }
