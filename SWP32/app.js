@@ -13,3 +13,12 @@ btn.addEventListener("click", function () {
     highlight.style = "";
   }
 });
+
+links.forEach((link) => {
+  link.addEventListener("pointerover", function () {
+    const w = this.offsetWidth,
+      h = this.offsetHeight,
+      t = this.offsetTop;
+    highlight.style.cssText = `transform: translateY(${t}px); width: ${w}px; height: ${h}px`;
+  });
+});
