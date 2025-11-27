@@ -89,3 +89,6 @@ body {
     justify-content: center;
     align-items: center;
   }
+   article {
+    padding: 20px 0;
+  }
