@@ -43,3 +43,8 @@
     background: rgb(212, 64, 101);
     transition: 1s;
   }
+  
+  .toggle-btn span:nth-child(2) {
+    top: 50%;
+    width: 70%;
+  }
