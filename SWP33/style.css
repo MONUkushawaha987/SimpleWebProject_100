@@ -128,4 +128,41 @@
     left: -10px;
     transform: rotateY(45deg) scale(0.5);
   }
+    
+  .nav-list {
+    position: absolute;
+    top: 40%;
+    right: 10vw;
+    opacity: 0;
+    font-family: sans-serif;
+  }
   
+  .link {
+    position: relative;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 10px;
+    transition: 0.5s;
+    letter-spacing: 2px;
+    list-style: none;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .link:hover {
+    opacity: 0.8;
+    color: blueviolet;
+    transform: translateX(-20px);
+  }
+  
+  .nav-list.show {
+    opacity: 1;
+  }
+  
+  /* Animation for JavaScrpit */
+  @keyframes slide {
+    100% {
+      left: 100%;
+    }
+  }
